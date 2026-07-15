@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fashion parlor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+ 
+ <style>
+    .card:hover
+    {
+      box-shadow: 0px 5px 8px black;
+      transform: scale(1.01);
+    }
+    a
+    {
+      text-decoration: none;
+      line-height:3%;
+    }
+     footer a:hover
+    /* a::after */
+      { 
+            line-height: 30px;
+            text-decoration: underline;
+     }
+ 
+  </style>
+  </head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">The Fashion parlor</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <center> 
+           
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="Home.html">
+                 
+                  <strong>Home</strong></a>
+              </li> <br>             
+               <li class="nav-item dropdown" class="nav-link-active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <strong>shop</strong> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="men.html">Men Wear</a></li><br>
+                    <li><a class="dropdown-item" href="women.html">Women Wear</a></li>
+                    <!-- <li><a class="dropdown-item" href="Casual.html">Casual wear</a></li> -->
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="Accessories.html">Accessories</a></li>
+                  </ul>
+              </li> <br>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="about us.html"><strong>About US</strong></a>
+              </li><br>
+              <li class="nav-item">
+                <a class="nav-link " href="Account.html" tabindex="-1" aria-disabled="true"> <strong>Account</strong></a>
+              </li><br>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><strong>Contact</strong></a>
+              </li><br>
+            </ul>
+        </center>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="First slide" ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="1"
+            aria-label="Second slide"></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="2"
+            aria-label="Third slide"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img
+              src="image/ads fashion img edit-2.jpg"
+              width="50%" height="361px"
+              class="w-100 d-block"
+              alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/ads fashion img edit-3 .jpg"
+              width="50%" height="361px"
+              class="w-100 d-block"
+              alt="Second slide" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/ads fashion img edit-5.jpg "
+              width="50%" height="361px"
+              class="w-100 d-block"
+              alt="Third slide" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="prev" >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="next" >
+       
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <center>
+       <div class="container">
+        <h1 class="text-center mt-5">Welcome to The Fashion parlor</h1>
+        <p class="text-center">Your one-stop shop for all things fashion!</p>
+      </div> 
+      </center>
+    
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="width: 70%; height: 5%; margin-left: 190px; margin-right: 90px; margin-top: 10px;">
+        <div class="col">
+          <div class="card">
+            <img src="image/women fashion edit image.jpg" class="card-img-top" alt="..." height="300px">
+            <div class="card-body">
+              <h5 class="card-title">Gowns</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           <a
+            name=""
+            id=""
+            class="btn btn-primary"
+            href="#"
+            role="button"
+            >Add to Cart</a
+           >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/kurti image.jpg" class="card-img-top" alt="..."height="300px">
+            <div class="card-body">
+              <h5 class="card-title">kuirt</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a
+              name=""
+              id=""
+              class="btn btn-primary"
+              href="#"
+              role="button"
+              >Add to Cart</a
+             >
+              <div class="d-grid gap-2">
+           </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/women lehenga image.jpg" class="card-img-top" alt="..." height="300px">
+            <div class="card-body">
+              <h5 class="card-title">Lehenga</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+           
+           <a
+            name=""
+            id=""
+            class="btn btn-primary"
+            href="#"
+            role="button"
+            >Add to Cart</a
+           >
+           </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/t shirt-1.jfif" class="card-img-top" alt="..."height="300px">
+            <div class="card-body">
+              <h5 class="card-title">T-shirt</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <a
+              name=""
+              id=""
+              class="btn btn-primary"
+              href="#"
+              role="button"
+              >Add to Cart</a
+            >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/pants.jfif" class="card-img-top" alt="..." height="300px">
+            <div class="card-body">
+              <h5 class="card-title">Pants</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <a
+              name=""
+              id=""
+              class="btn btn-primary"
+              href="#"
+              role="button"
+              >Add to Cart</a
+            >
+             </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/suits.jfif" class="card-img-top" alt="..."height="300px">
+            <div class="card-body">
+              <h5 class="card-title">Coat Suit </h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+             <a
+              name=""
+              id=""
+              class="btn btn-primary"
+              href="#"
+              role="button"
+              >Add to Cart</a
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </center><br><br>
+    <hr>
+    <footer class="footer  text-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>About Us</h5>
+            <p>Fashion designers sketch designs of clothing, footwear, and accessories. </p>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-black" style="color: black;"><b>Contact Us</b></a></li>
+              <li><a href="#" class="text-black"> navimala123@gmail.com</a></li>
+              <li><a href="#" class="text-black">9876543210</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4" style="padding-left: 10%;">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="Home.html" class="text-black">Home</a></li>
+              <li><a href="about us.html" class="text-black">About</a></li>
+              <li><a href="contact.html" class="text-black">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Follow Us</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-black"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+              <li><a href="#" class="text-black"><i class="fab fa-twitter"></i> Twitter</a></li>
+              <li><a href="#" class="text-black"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div><br>
+      <div class="footer-copyright text-center" style="font-size: x-large; ">
+        &copy; 2025 Fashion Porlor
+      </div>
+    </footer>
+</body>
+</html>
